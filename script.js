@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    await fetch('https://chatgpt-sever-free.onrender.com', {
+    await fetch('https://chat-gpt-last.vercel.app/', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
