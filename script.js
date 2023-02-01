@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    await fetch('https://fbdd-45-126-3-252.jp.ngrok.io/', {
+    await fetch('https://chatgpt-sever-free.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
