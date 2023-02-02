@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    await fetch('', {
+    await fetch('https://severmezz.vercel.app/', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
