@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    await fetch('https://chat-gpt-last.vercel.app/', {
+    await fetch('https://chatgpt-clientzz-storyclone.vercel.app/', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
